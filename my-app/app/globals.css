@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@1,500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  /*background: #f4f4f4*/
+}
+
+@font-face {
+  font-family: ooga;
+  src:url(/my-app/public/Horizon.ttf)
+}
+
+.horizon{
+  font-family: ooga;
+}
+
+.glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  /*backdrop-filter: blur(10px); */
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+.hd{
+  backdrop-filter: blur(5px);
+  border-style: none;
+  
+}
+
+
+  @media (max-width: 768px) {
+    .hide {
+        display: none;
+    }
+}
