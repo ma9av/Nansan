@@ -66,7 +66,7 @@ const page = () => {
             </span>
           </h1>
           <h1 className="text-center text-xl mt-5">
-            Do you want to work with us ,join us by filling the Form{" "}
+            Do you want to work with us ,join us by filling the Form
           </h1>
           <Form />
           <span className="pt-10 pb-10 flex text-center justify-center">

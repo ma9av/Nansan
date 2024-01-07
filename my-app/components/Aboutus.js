@@ -21,15 +21,15 @@ const Aboutus = () => {
           <div className="mt-10 p-4">
             <h1 className="text-center text-2xl ">
               <span className="bg-blue-950 p-2 text-white rounded-2xl ">
-                {" "}
-                Meet the Founders{" "}
+                
+                Meet the Founders
               </span>
             </h1>
 
             <div className="flex justify-center gap-10 pt-10">
               <div className="flex flex-col">
                 <Image src="/founder.jpg" width={400} height={60} alt="" />
-                <span className=" text-center">Founder</span>
+                <span className=" text-center">Pritam Jangid(Founder)</span>
               </div>
 
               <div className="flex flex-col">
@@ -39,7 +39,7 @@ const Aboutus = () => {
                   height={40}
                   alt=""
                 />
-                <span className=" text-center"> Aman Tiwari </span>
+                <span className=" text-center"> Aman Tiwari(HR Manager)</span>
               </div>
             </div>
           </div>
