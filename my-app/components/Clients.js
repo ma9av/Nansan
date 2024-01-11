@@ -2,7 +2,7 @@ import Image from 'next/image'
 const Clients = () => {
   return (
     <div className=" text-2xl pl-10 pr-10">
-        <h1 className=" text-center mt-10"><span className='bg-blue-950 p-2 text-white rounded-2xl'>  Our Clients </span></h1>
+        <h1 className=" text-center mt-10 mx-auto"><span className='bg-blue-950 p-2 text-white rounded-2xl'>  Our Clients </span></h1>
 
         <div className='pt-10'>
         <div className='flex  justify-center pt-5 md:flex-row md:p-10 horizontal'>
