@@ -1,7 +1,7 @@
 import Image from 'next/image'
 const Clients = () => {
   return (
-    <div className=" text-2xl pl-10 pr-10">
+    <div className=" text-2xl pl-5 pr-5">
         <h1 className=" text-center mt-10 mx-auto"><span className='bg-blue-950 p-2 text-white rounded-2xl'>  Our Clients </span></h1>
 
         <div className='pt-10'>
