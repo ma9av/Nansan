@@ -9,6 +9,7 @@ const Dropdown = () => {
        <Link href="#clients" className=' text-blue-950  font-bold hover:text-blue-400'>Clients</Link>
        <Link href="#career" className=' text-blue-950  font-bold hover:text-blue-400'>Career</Link>
        <Link href="#service" className=' text-blue-950  font-bold hover:text-blue-400'>Services</Link>
+       <Link href="#contact" className=' text-blue-950  font-bold hover:text-blue-400'>Contact us</Link>
 
         </ul>
       

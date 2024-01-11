@@ -26,9 +26,9 @@ const Aboutus = () => {
               </span>
             </h1>
 
-            <div className="flex justify-center gap-10 pt-10">
+            <div className="flex justify-center gap-20 pt-20">
               <div className="flex flex-col">
-                <Image src="/founder.jpg" width={400} height={60} alt="" />
+                <Image src="/founders/Pritam.jpeg" width={300} height={60} alt="" />
                 <span className=" text-center">Pritam Jangid(Founder)</span>
               </div>
 
@@ -36,7 +36,7 @@ const Aboutus = () => {
                 <Image
                   src="/founders/Aman.jpg"
                   width={300}
-                  height={40}
+                  height={60}
                   alt=""
                 />
                 <span className=" text-center"> Aman Tiwari(HR Manager)</span>

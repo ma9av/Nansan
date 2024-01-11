@@ -3,7 +3,7 @@
 const Contact = () => {
   return (
     <> 
-  <h1 className="text-center text-2xl pt-20">
+  <h1 className="text-center text-2xl pt-20" id="contact">
     <span className="bg-blue-950 p-2 text-white rounded-2xl">
       Contact us
     </span>
